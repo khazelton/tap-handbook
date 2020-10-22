@@ -1,0 +1,205 @@
+### IAM Self-Assessment
+
+#### Demographics
+* 1. What is your name?
+* 2. What organization are you with?
+* 3. Approximately many people at your organization are a part of the IAM team, or performing essential IAM duties?
+
+
+#### Identity Management
+
+* 4. Constituents
+** Our identity management covers just the core community—faculty, staff and students—as defined by source systems.
+** identity management includes faculty, staff and students, plus secondary sources like library patrons, hospital staff, etc.
+** We capture information about all people of interest to schools, departments, research collaborators, central offices, libraries, guests, etc.
+
+* 5. Subject Identifiers
+** Subject identifiers are reused for different subjects.
+** Subject identifiers are reused but persistent.
+** Subject identifiers are non-reassignable persistent identifiers.
+
+* 6. Matching and Uniqueness
+** We get information from many sources; it’s possible someone can be represented multiple times. It is difficult for us to detect except in reaction to service issues.
+** We have good central identity matching processes, but work to resolve identity issues mostly as needed.
+** We have strong partners and practices across campus and multiple systems that participate in detecting, avoiding and resolving identity issues.
+
+* 7. Identity Data Integration
+** We periodically gather information from sources on cycles that can vary from daily, to weekly or longer.
+** We regularly gather information from sources, generally no less than daily.
+** We have real-time or near-real-time connections to source and client systems that allow service and access changes to take effect in minutes -- on or off -- when data changes.
+
+* 8. Identity Data Governance
+** IT staff may find themselves making decisions where business rules don’t exist and no decision-making body exists.
+** We have general workplace guidelines that designate who can use identity data and stewardship of it.
+** We have policies around identity data and stewardship as well as chain of authority for group and access management.
+
+
+#### Authentication
+
+* 9. Identity and Account Lifecycle
+** Accounts in our system have rudimentary lifecycle status. However, there are many institutional accounts without an associated identity record. These have been added over time as exceptions and mostly by hand.
+** Core constituencies have reasonable lifecycle management and account status in place based on institutional data. We have many accounts that lack associated identity records.
+** All institutional accounts have associated identity records and appropriate lifecycle management in place.
+
+* 10. Credential Provisioning
+
+** Our processes are manual, ad-hoc, and not documented or well understood.
+** We have a mix of formal processes and those created on an as-needed basis. Some are self-service and some are not. We have some policy around who can request an account.
+** Our processes are established, automated, and documented. Constituents can claim accounts and reset passwords via self-service account management.
+
+* 11. Authentication Assurance
+** We use the same credentials for all our services from financial system access to email. Our identity and security groups have little interaction.
+** We require stronger credentials for some services, but still support sub-optimal practices for accessing some legacy systems. The identity and security groups understand their interdependence.
+** We have classified our services according to risk levels and implemented analogous credential-related requirements. For legacy systems, we have developed strategies to reduce our exposure. Identity and security teams have a strong relationship.
+
+* 12. Single Sign On
+** We have separate authentication credentials for access to different institutional services.
+Credentials are synchronized across multiple systems to achieve unified authentication for access to different institutional services.
+** We have implemented a single sign-on solution for access to different institutional services.
+
+* 13. Multi-factor Authentication
+** Multi-factor authentication is available for limited use cases and mostly used by IT staff.
+** Multi-factor authentication is generally available to the community, but only deployed for limited systems and cohorts.
+** Multi-factor authentication is widely deployed and required for most cohorts.
+
+#### Authorization
+
+* 14. Separation of Authentication and Authorization
+** The act of authenticating provides some simple access rights.
+** In general, we have separated authentication from access, but users can still access services, especially in certain systems, without explicit granting of it.
+** We have complete separation of authentication from access rights. We feel comfortable allowing people to authenticate who no longer are members of our campus. They can’t access any resource.
+
+* 15. Subject Cohorts (i.e. “group”) Strategy
+** We currently do not have any “groups” management strategy or system beyond, perhaps, system-specific “roles” as defined by local application security.
+** We have groups and a model for distributed maintenance of membership, but limited integration with or leveraging of this information across the infrastructure.
+** We support groups at a high level, integrating institutional roles (e.g., faculty, student) with ad-hoc groups, easily leveraged across departmental and campus-wide systems.
+
+* 16. Access Management
+** Access rights are generally managed internally by IT through a variety of online methods, including email or help ticket requests.
+** Departments and users can manage access rights, but across multiple systems in a variety of interfaces. Some is still done by IT as well.
+** Users have a common interface to manage access rights, for both assigning and review. We support delegated assignment of access rights.
+
+* 17. Provisioning/Deprovisioning Access
+** Each new faculty or staff position must be incrementally enabled or disabled for access as needed. This can take days, weeks, or months to get it all set up.
+** Good processes are in place to identify and to facilitate the many steps in establishing access rights.
+** Access rights for new individuals can be quickly established based on role or transferred from the last holder of that position.
+
+* 18. Access Policy Governance
+** Access rights need to be granted and revoked manually by the responsible managers or administrators. Too often we rely on the subject’s account being turned off to cut off services.
+** Basic computing services – network, email, etc – are automatically tied to affiliation and status, but other forms of authorization require manual control.
+** Access rights of all kinds – infrastructure services, business systems authority, resource access – are subject to common data and access policy for automated access governance.
+
+* 19. Access Audit and Reporting
+** We have no good way to determine all the access rights a person has or all the holders of a certain access type; this information is scattered across many systems and accessible only to the maintainers of those systems.
+** Processes are in place to answer questions about access types and holders of access rights to central offices and auditing.
+** Access information is available on demand to individuals in offices or departments who are responsible for managing them.
+
+#### Federation Perspectives
+
+* 20. Cloud Strategy
+** We rarely if ever look to the cloud to provide resources and services to the institution.
+** Some external applications and resources are of interest to us.
+** Leveraging as many cloud resources as fits our technology and business goals is a key component of our IT strategy to service the institutional mission.
+
+* 21. Federating Methodology
+** We use multiple methods to connect to cloud services such as credential syncing and provider direct access to our campus credential store.
+** We are members of InCommon and prefer to use SAML web single-sign on with our cloud service providers.
+** We are members of InCommon, prefer vendors that support federation metadata, and are willing to sponsor vendors participation in InCommon.
+
+* 22. eduPerson Subject Attributes
+** We don’t have it or are not sure what it is.
+** We have partially implemented it, but don’t have the data available for most of the attributes types.
+** We have fully implemented and leveraged eduPerson on our campus.
+
+* 23. Subject Attribute Release
+** We set up a new attribute release policy upon request and have an ad hoc process for doing this.
+** We have a process for campus review of Attribute Release Requests. We support the Research and Scholarship Category Tag.
+ ** We release public directory information to all SPs in InCommon. We have a process for campus review of Attribute Release Requests for information beyond the public set. We support the Research and Scholarship Category Tag and InCommon Baseline Expectations.
+
+* 24. External Collaboration and Research
+** Faculty collaboration with other institutions and entities beyond our own is rare or non-existent.
+** There is some ad-hoc research and scholarly collaboration with institutions and entities beyond our own.
+** Collaboration beyond our institution is a key component to our educational and research missions and is well supported by our IAM architecture.
+
+#### Architecture, Evolution, and Management
+* 25. IAM Team
+** We are stretched thin on staffing, especially with respect to Identity Management
+** We have some staffing efforts partly dedicated to Identity Management, but it is a best-effort and often these staff are pulled away to other projects.
+** We have staff dedicated to managing and growing our IdM infrastructure. Time and resources are dedicated to training and participation in the InCommon community.
+
+* 26. Identity Management Roadmap
+** Identity Management Roadmap? We don’t have one.
+** An Identity Management roadmap is under development.
+** An Identity Management roadmap is in place and being actively maintained.
+
+* 27. IAM System Change Management
+** We have little connection or control over changes in external systems, so we mostly react to changing business rules or data definitions about faculty, staff and students
+** We have development, test and user-acceptance environments, but inconsistent source system involvement, and problems with authentication/SSO.
+** We have end-to-end test, development, and user-acceptance environments with all sources and consumers, and cooperative processes for planning change.
+
+* 28. Integration Technologies
+** We gather information from sources with a mix of flat file transfer, reports, direct SQL access, and/or email.
+** We rely on batch processes but use consistent techniques with our clients and a common secured infrastructure.
+** We have real-time access to data, e.g., through LDAP, as well as an enterprise, message-based integration infrastructure.
+
+* 29. DevOps, Containers, Public Cloud Infrastructure
+** IAM component deployments and updates are mostly manual and error prone. Best not to touch it if you don’t have to.
+** IAM components deployments are version controlled with some automation in place. Fairly confident in change management and ability to roll back to a known working state.
+** IAM components are using modern container based deployments. DevOps strategies are in place to easily upgrade and evolve IAM capabilities. Public cloud infrastructure deployments are supported.
+
+#### Trusted Access Platform Experience
+
+* 30. Shibboleth
+** We don’t run Shibboleth, and don’t have any short term needs or plans for it.
+** We have Shibboleth in a test environment, or have a current project to implement it.
+** We have Shibboleth in production, and are using it with one or more service providers.
+
+* 31. Grouper
+** We don’t run Grouper, and don’t have any short term needs or plans for it.
+** We have Grouper in a test environment, or have a current project to implement it.
+** We have Grouper in production, and are using it to publish access policies.
+
+* 32. COmanage
+** We don’t run COmanage, and don’t have any short term needs or plans for it.
+** We have COmanage in a test environment, or have a current project to implement it.
+** We have COmanage in production, and are using it as a registry or guest management system.
+
+* 33. midPoint
+** We don’t run midPoint, and don’t have any short term needs or plans for it.
+** We have midPoint in a test environment, or have a current project to implement it.
+** We have midPoint in production, and are using it as a registry or to provision to one or more provisioning targets.
+
+#### Deployed IAM Components
+Please indicate which components you currently have deployed. Check all that apply.
+
+* 34. Enterprise Directory
+** OpenLDAP
+** 389 Directory Server
+** Active Directory
+** Other (please specify)
+
+* 35. WebSSO
+** Shibboleth
+** Apereo CAS
+** PingFederate
+** Okta
+** Other (please specify)
+
+* 36. Multi-factor Authentication
+** Duo
+** Okta
+** Ping
+** RSA SercureID
+** Other (please specify)
+
+* 37. Identity Governance and Administration
+** Grouper
+** midPoint
+** COmanage
+** Sailpoint
+** Active Directory
+** Other (please specify)
+
+#### IAM Priorities, Challenges, and Goals
+
+* 38. Please describe your current IAM priorities, challenges, and goals.
